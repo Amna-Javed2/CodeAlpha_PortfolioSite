@@ -1,0 +1,32 @@
+export const projects = [
+  {
+    id: 1,  
+    title: "Meetora AI",
+    description: "...",
+    tech: ["HTML5", "CSS3", "Vanilla JS"],
+    image: "/images/projects/meetora-ai.png",
+    liveLink: "https://meetora-ai.vercel.app/",
+    repoLink: "https://github.com/Amna-Javed2/meetora-ai",
+    status: "completed",
+  },
+  {
+    id: 2,
+    title: "Calculator",
+    description: "...",
+    tech: ["React", "TypeScript"],
+    image: null,
+    liveLink: "",
+    repoLink: "",
+    status: "in-progress",
+  },
+  {
+    id: 3,
+    title: "Music Player",
+    description: "...",
+    tech: ["React", "TypeScript", "Tailwind"],
+    image: null,
+    liveLink: "",
+    repoLink: "",
+    status: "in-progress",
+  },
+];
