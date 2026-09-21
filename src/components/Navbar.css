@@ -1,0 +1,36 @@
+header {
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media (max-width: 768px) {
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+    .nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

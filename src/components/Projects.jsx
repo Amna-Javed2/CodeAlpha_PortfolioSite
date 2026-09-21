@@ -1,13 +1,15 @@
 import { projects } from "../data/projects";
+import "./Projects.css"
 
 function Projects() {
   return (
     <section id="projects">
       <h2>Projects</h2>
+      <div className="projects-grid">
       {projects.map((project) => {
         const isInProgress = project.status === "in-progress";
         return (
-          <article key={project.id}>
+          <article key={project.id} className="project-card">
             {project.image ? (
               <img src={project.image} alt={project.title} />
             ) : (
@@ -35,10 +37,10 @@ function Projects() {
             >
               {isInProgress ? "Coming Soon" : "Github Repo"}
             </a>
-            <hr />
           </article>
         );
       })}
+      </div>
     </section>
   );
 }

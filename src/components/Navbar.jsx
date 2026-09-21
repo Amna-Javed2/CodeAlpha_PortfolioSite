@@ -1,7 +1,9 @@
+import "./Navbar.css"
+
 function Navbar() {
   return (
     <header>
-      <nav>
+      <nav className="nav">
         <a href="#hero" className="logo">Amna Javed</a>
         <ul>
           <li><a href="#about">About</a></li>
