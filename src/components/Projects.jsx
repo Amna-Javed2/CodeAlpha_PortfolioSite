@@ -17,9 +17,11 @@ function Projects() {
             )}
             <h3>{project.title}</h3>
             <p>{project.description}</p>
+            <div className="tech-list">
             {project.tech.map((t) => (
               <span key={t}>{t}</span>
             ))}
+            </div>
 
             <a
               href={isInProgress ? undefined : project.liveLink}

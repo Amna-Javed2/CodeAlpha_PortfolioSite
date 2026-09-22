@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,  
     title: "Meetora AI",
-    description: "...",
+    description: "A responsive landing page built with HTML5, CSS3, and vanilla JavaScript, featuring a custom AI chatbot integration for interactive user engagement.",
     tech: ["HTML5", "CSS3", "Vanilla JS"],
     image: "/images/projects/meetora-ai.png",
     liveLink: "https://meetora-ai.vercel.app/",
@@ -12,7 +12,7 @@ export const projects = [
   {
     id: 2,
     title: "Calculator",
-    description: "...",
+    description: "Coming soon — React + TypeScript",
     tech: ["React", "TypeScript"],
     image: null,
     liveLink: "",
@@ -22,7 +22,7 @@ export const projects = [
   {
     id: 3,
     title: "Music Player",
-    description: "...",
+    description: "Coming soon — React + TypeScript + Tailwind",
     tech: ["React", "TypeScript", "Tailwind"],
     image: null,
     liveLink: "",

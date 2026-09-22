@@ -4,8 +4,29 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bg: #FAFAF8;       
+  --text: #1C1C1E;      
+  --primary: #2F4858;   
+  --accent: #E8944A;    
+  --muted: #6B6B68;     
+  --card-bg: #FFFFFF;
+  --border: #E3E1DC;    
+}
+
+
 body {
-  font-family: system-ui, -apple-system, sans-serif;
-  color: #1a1a1a;
-  background: #ffffff;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+h1, h2, h3 {
+  font-family: 'Fraunces', serif;
+  color: var(--primary);
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
 }
