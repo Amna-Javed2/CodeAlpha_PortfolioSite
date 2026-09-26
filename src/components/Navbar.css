@@ -23,6 +23,24 @@ header {
   color: inherit;
 }
 
+.resume-btn {
+  background: var(--primary);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav .resume-btn:hover {
+  background: var(--accent);
+  color: white; 
+}
+
+.nav .resume-btn {
+  color: white;
+}
+
 @media (max-width: 768px) {
   .nav {
     flex-wrap: wrap;

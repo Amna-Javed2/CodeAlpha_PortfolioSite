@@ -12,6 +12,7 @@ function Navbar() {
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <a href="/Amna_Javed_Resume.pdf" target="_blank" className="resume-btn">Resume</a>
       </nav>
     </header>
   )

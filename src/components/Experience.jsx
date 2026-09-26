@@ -5,17 +5,16 @@ function Experience() {
   const ref = useScrollAnimation();
   return (
     <section id="experience" ref={ref} className="content-section fade-section">
-      <h2>Experience Section</h2>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Necessitatibus, perferendis. Dolorum minus minima officiis est iure,
-        voluptate aperiam iusto provident, ipsam dolorum delectus quos expedita
-        esse! Aperiam, aspernatur ducimus? Numquam eaque atque id doloribus
-        accusamus, dolore cupiditate suscipit molestiae eius odio dolor illum
-        labore dolores quos corrupti aliquid temporibus at ipsa et repellendus
-        omnis voluptas? Laboriosam dolores commodi alias autem beatae fuga nam,
-        sit libero soluta fugiat dolorem!
-      </p>
+      <h2>Experience</h2>
+      <article>
+        <h3>Frontend Development Intern — CodeAlpha</h3>
+        <span>Sep 2026 – Oct 2026</span>
+        <p>
+          Building responsive web applications (Portfolio, Calculator, Music
+          Player) with React, TypeScript, and Tailwind CSS — reusable components
+          and clean, accessible UI. Remote.
+        </p>
+      </article>
     </section>
   );
 }

@@ -1,7 +1,9 @@
 
 function Footer() {
   return (
-    <footer>Footer Section</footer>
+    <footer>
+      <p>© 2026 Amna Javed. All rights reserved.</p>
+    </footer>
   )
 }
 
