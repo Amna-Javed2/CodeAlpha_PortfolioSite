@@ -1,9 +1,11 @@
 import { projects } from "../data/projects";
 import "./Projects.css"
+import useScrollAnimation from "../hooks/useScrollAnimation";
 
 function Projects() {
+  const ref = useScrollAnimation();
   return (
-    <section id="projects">
+    <section id="projects" ref={ref} className="fade-section">
       <h2>Projects</h2>
       <div className="projects-grid">
       {projects.map((project) => {

@@ -22,7 +22,6 @@
     justify-content: center;
     background: var(--border);
     color: var(--muted);
-    font-size: 13px;
     font-family: ui-monospace, monospace;
     letter-spacing: 0.5px;
 }

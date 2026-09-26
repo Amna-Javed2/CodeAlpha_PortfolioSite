@@ -1,9 +1,11 @@
-import { skills } from "../data/skills"
-import "./Skills.css"
+import { skills } from "../data/skills";
+import "./Skills.css";
+import useScrollAnimation from "../hooks/useScrollAnimation";
 
 function Skills() {
+  const ref = useScrollAnimation();
   return (
-    <section id="skills">
+    <section id="skills" ref={ref} className="fade-section">
       <h2>Skills Section</h2>
       <div className="skills-list">
         {skills.map((skill) => (

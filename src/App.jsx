@@ -7,6 +7,7 @@ import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+// import Practice from './components/practice'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <>
     <Navbar />
     <main>
+    {/* <Practice /> */}
     <Hero />
     <About />
     <Experience />
@@ -27,4 +29,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
